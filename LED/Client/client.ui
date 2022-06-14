@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Client</class>
+ <widget class="QMainWindow" name="Client">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>264</width>
+    <height>476</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Client</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(248, 187, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QToolButton" name="toolButton_3">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>260</y>
+      <width>129</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+	color: rgb(255, 85, 0);
+border:2px groove gray;border-radius:10px;padding:2px 4px;
+	font: 14pt &quot;新宋体&quot;;
+}                          
+QToolButton:hover{
+background-color:rgb(229, 241, 251); 
+color: black;}
+QToolButton:pressed{
+background-color:rgb(204, 228, 247);
+border-style: inset;}
+
+QToolButton{
+font: 14pt &quot;新宋体&quot;;
+border:2px groove gray;
+border-radius:10px;
+padding:2px 4px;
+}
+QToolButton:hover{  /*鼠标放上后*/
+
+border-color:rgb(123, 184, 184)
+}
+QToolButton:pressed{ /*按下按钮后*/
+
+background-color:rgb(157, 236, 236);
+}</string>
+    </property>
+    <property name="text">
+     <string>增加光度</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>60</y>
+      <width>129</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+	color: rgb(255, 85, 0);
+border:2px groove gray;border-radius:10px;padding:2px 4px;
+	font: 14pt &quot;新宋体&quot;;
+}                          
+QToolButton:hover{
+background-color:rgb(229, 241, 251); 
+color: black;}
+QToolButton:pressed{
+background-color:rgb(204, 228, 247);
+border-style: inset;}
+
+QToolButton{
+font: 14pt &quot;新宋体&quot;;
+border:2px groove gray;
+border-radius:10px;
+padding:2px 4px;
+}
+QToolButton:hover{  /*鼠标放上后*/
+
+border-color:rgb(123, 184, 184)
+}
+QToolButton:pressed{ /*按下按钮后*/
+
+background-color:rgb(157, 236, 236);
+}</string>
+    </property>
+    <property name="text">
+     <string>打开光源</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>20</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>楷体</family>
+      <pointsize>20</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;楷体&quot;;
+color: rgb(255, 255, 0);</string>
+    </property>
+    <property name="text">
+     <string>遥控器</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_4">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>350</y>
+      <width>129</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+	color: rgb(255, 85, 0);
+border:2px groove gray;border-radius:10px;padding:2px 4px;
+	font: 14pt &quot;新宋体&quot;;
+}                          
+QToolButton:hover{
+background-color:rgb(229, 241, 251); 
+color: black;}
+QToolButton:pressed{
+background-color:rgb(204, 228, 247);
+border-style: inset;}
+
+QToolButton{
+font: 14pt &quot;新宋体&quot;;
+border:2px groove gray;
+border-radius:10px;
+padding:2px 4px;
+}
+QToolButton:hover{  /*鼠标放上后*/
+
+border-color:rgb(123, 184, 184)
+}
+QToolButton:pressed{ /*按下按钮后*/
+
+background-color:rgb(157, 236, 236);
+}</string>
+    </property>
+    <property name="text">
+     <string>减少光度</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>160</y>
+      <width>129</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{
+	color: rgb(255, 85, 0);
+border:2px groove gray;border-radius:10px;padding:2px 4px;
+	font: 14pt &quot;新宋体&quot;;
+}                          
+QToolButton:hover{
+background-color:rgb(229, 241, 251); 
+color: black;}
+QToolButton:pressed{
+background-color:rgb(204, 228, 247);
+border-style: inset;}
+
+QToolButton{
+font: 14pt &quot;新宋体&quot;;
+border:2px groove gray;
+border-radius:10px;
+padding:2px 4px;
+}
+QToolButton:hover{  /*鼠标放上后*/
+
+border-color:rgb(123, 184, 184)
+}
+QToolButton:pressed{ /*按下按钮后*/
+
+background-color:rgb(157, 236, 236);
+}</string>
+    </property>
+    <property name="text">
+     <string>打开通风</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

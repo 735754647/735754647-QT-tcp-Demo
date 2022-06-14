@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Image/clean.png</file>
+        <file>Image/faeces.png</file>
+        <file>Image/nightstool.png</file>
+        <file>Image/water.png</file>
+        <file>Image/illumine.png</file>
+        <file>Image/LED.png</file>
+        <file>Image/conditioner.png</file>
+        <file>Image/dry.png</file>
+        <file>Image/human.png</file>
+        <file>Image/leave.png</file>
+        <file>Image/wc.png</file>
+        <file>Image/start.png</file>
+    </qresource>
+</RCC>
