@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Image/Cold.png</file>
+        <file>Image/Hot.png</file>
+        <file>Image/keep.png</file>
+    </qresource>
+</RCC>

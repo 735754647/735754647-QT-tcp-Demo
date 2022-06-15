@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Client</class>
+ <widget class="QMainWindow" name="Client">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>213</width>
+    <height>378</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Client</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(239, 255, 229);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>25</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 127);</string>
+    </property>
+    <property name="text">
+     <string>遥控器</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>110</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+	background-color: #46bcff;
+    color: #e7e7e7;
+}
+ 
+QPushButton:hover {
+    border-radius: 12px;
+    background-color:#34495e;
+    border: 0px;
+    color: #46bcff;
+}
+ 
+QPushButton:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}</string>
+    </property>
+    <property name="text">
+     <string>开启烤箱</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>190</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+	background-color: #46bcff;
+    color: #e7e7e7;
+}
+ 
+QPushButton:hover {
+    border-radius: 12px;
+    background-color:#34495e;
+    border: 0px;
+    color: #46bcff;
+}
+ 
+QPushButton:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}</string>
+    </property>
+    <property name="text">
+     <string>关闭烤箱</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>280</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>宋体</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+	background-color: #46bcff;
+    color: #e7e7e7;
+}
+ 
+QPushButton:hover {
+    border-radius: 12px;
+    background-color:#34495e;
+    border: 0px;
+    color: #46bcff;
+}
+ 
+QPushButton:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}</string>
+    </property>
+    <property name="text">
+     <string>暂停</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
